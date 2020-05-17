@@ -1,0 +1,130 @@
+li {list-style: none; }
+
+body{
+    
+    /* light */
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    
+    /* light */
+    
+    background: rgba(255, 255, 255, 0.5);
+    
+
+    background-image: url(images/background.png);
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.nav-container {
+    height: 120px;
+}
+
+.logo {
+    position: absolute;
+width: 118px;
+height: 88px;
+left: 42px;
+top: 16px;
+
+background: url(images/logo.png);
+border: #000000;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    left: 1336px;
+    top: 40px;
+}
+
+/* You are versatile, expressive, and kind. This summer, you need to make a weekly routine and actually stick to it. Those things that you wanted to do, whether it be working out, drinking eight cups of water a day, or sleeping before midnight everyday—make sure to create a schedule and try it out to make the most out of your summer! You are infinitely curious and expressive, which is why you should explore your inner emotions by journaling. Take this time for yourself and start a journal. Buy yourself an overpriced notebook and some nice pens and get digging! */
+
+.paragraph{
+    position: absolute;
+    width: 1251px;
+    height: 369px;
+    left: 94px;
+    top: 360px;
+
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 35px;
+    /* or 62% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    /*border: 1px solid #000000;*/
+}
+
+/* Gemini */
+
+.sign{
+    position: absolute;
+    width: 843px;
+    height: 125px;
+    left: 94px;
+
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 48px;
+    /* or 50% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+
+/* Get Stuff Done and Dig Deep! */
+.tagline{
+
+    position: absolute;
+    width: 974px;
+    height: 175px;
+    left: 94px;
+    top: 235px;
+
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 5px;
+    /* or 8% */
+    
+    /*display: flex;*/
+    /*align-items: center;*/
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+    
+    mix-blend-mode: overlay;
+    /*border: 1px solid #000000;*/
+    
+}

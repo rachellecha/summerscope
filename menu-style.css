@@ -1,0 +1,513 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+
+    background-image: url(images/background-menu.png);
+
+}
+
+.close {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+    background: url(images/close.svg);
+    background-position: center;
+    background-size: 40;
+    border: #000000;
+    position: absolute;
+
+    width: 46px;
+    height: 40px;
+    left: 1336px;
+    top: 40px;
+}
+
+.aries{
+    position: absolute;
+width: 164px;
+height: 65px;
+left: 340px;
+top: 79px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+
+background-color: #00000000;
+border: #000000;
+
+}
+
+.aries1{
+    position: absolute;
+width: 57px;
+height: 57px;
+left: 488px;
+top: 79px;
+
+    border: #000000;
+    
+    background: url(images/aries.png);
+    background-position: absolute;
+    background-size: 57px;
+    background-position-x: center;
+}
+
+.taurus{
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+
+background-color: #00000000;
+border: #000000;
+
+position: absolute;
+width: 164px;
+height: 65px;
+left: 305px;
+top: 196px;
+
+}
+
+.taurus1{
+
+    position: absolute;
+width: 57px;
+height: 57px;
+left: 488px;
+top: 198px;
+        border: #000000;
+    
+        background: url(images/taurus.png);
+        background-position: absolute;
+    background-size: 57px;
+    background-position: center;
+
+}
+
+.gemini{
+position: absolute;
+width: 164px;
+height: 62px;
+left: 290px;
+top: 313px;
+
+font-family: Poly;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+background-color: #00000000;
+border: #00000000;
+}
+
+.gemini1 {
+    position: absolute;
+width: 52px;
+height: 51px;
+left: 493px;
+top: 320px;
+
+border: #000000;
+
+background: url(images/gemini.png);
+background-position: absolute;
+background-size: 52px;
+background-position: center;
+}
+.cancer{
+    position: absolute;
+    width: 164px;
+    height: 65px;
+    left: 290px;
+    top: 427px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+
+    background-color: #00000000;
+    border: #00000000; 
+
+}
+
+.cancer1{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 492px;
+    top: 436px;
+border: #000000;
+
+background: url(images/cancer.png);
+background-position: absolute;
+background-size: 54px;
+background-position-x: center;
+
+
+}
+
+.leo{
+
+    position: absolute;
+    width: 164px;
+    height: 65px;
+    left: 370px;
+    top: 544px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;  
+
+    background-color: #00000000;
+    border: #00000000;
+
+}
+
+.leo1{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 493px;
+    top: 555px;
+border: #000000;
+
+background: url(images/leo.png);
+background-position: absolute;
+background-size: 58px;
+background-position: center;
+}
+.virgo{
+
+    position: absolute;
+    width: 164px;
+    height: 65px;
+    left: 325px;
+    top: 661px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+
+    background-color: #00000000;
+    border: #00000000;
+
+}
+.virgo1{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 495px;
+    top: 677px;
+    border: #000000;
+    
+    background: url(images/virgo.png);  
+    background-position: absolute;
+background-size: 53px;
+background-position-x: center;
+}
+
+.libra{
+    position: absolute;
+    width: 164px;
+    height: 65px;
+    left: 915px;
+    top: 79px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+
+    background-color: #00000000;
+    border: #00000000;
+
+}
+.libra1{
+    position: absolute;
+width: 51px;
+height: 51px;
+left: 1089px;
+top: 82px;
+border: #000000;
+
+background: url(images/libra.png);
+background-position: absolute;
+background-size: 57px;
+background-position: center;
+}
+
+.scorpio{
+    position: absolute;
+    width: 179px;
+    height: 65px;
+    left: 860px;
+    top: 196px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+    background-color: #00000000;
+    border: #00000000;
+
+}
+
+.scorpio1{
+    position: absolute;
+width: 54px;
+height: 55px;
+left: 1089px;
+top: 199px;
+border: #000000;
+
+background: url(images/scorpio.png);
+background-position: absolute;
+background-size: 55px;
+background-position: center;
+}
+
+.sagittarius{
+
+    position: absolute;
+width: 269px;
+height: 62px;
+left: 775px;
+top: 313px;
+
+font-family: Poly;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.1em;
+
+color: #000000;
+background-color: #00000000;
+    border: #00000000;
+
+}
+
+.sagittarius1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1080px;
+    top: 316px;
+    
+border: #000000;
+
+background: url(images/sagittarius.png);
+background-position: absolute;
+background-size: 60px;
+background-position: center;
+}
+
+.capricorn{
+    position: absolute;
+width: 240px;
+height: 65px;
+left: 795px;
+top: 427px;
+
+font-family: Poly;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.1em;
+
+color: #000000;
+background-color: #00000000;
+    border: #00000000;
+}
+
+.capricorn1{
+    position: absolute;
+width: 54px;
+height: 54px;
+left: 1089px;
+top: 436px;
+border: #000000;
+
+background: url(images/capricorn.png);
+background-position: absolute;
+background-size: 55px;
+background-position: center;
+}
+
+.aquarius{
+    position: absolute;
+    width: 224px;
+    height: 65px;
+    left: 820px;
+    top: 544px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+    background-color: #00000000;
+    border: #00000000;
+
+}
+
+.aquarius1{
+    position: absolute;
+width: 57px;
+height: 57px;
+left: 1086px;
+top: 552px;
+border: #000000;
+
+background: url(images/aquarius.png);
+background-position: absolute;
+background-size: 57px;
+background-position-x: center;
+}
+
+.pisces{
+
+    position: absolute;
+width: 164px;
+height: 65px;
+left: 877px;
+top: 661px;
+
+font-family: Poly;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.1em;
+
+color: #000000;
+background-color: #00000000;
+    border: #00000000;
+
+}
+
+.pisces1{
+    position: absolute;
+width: 57px;
+height: 57px;
+left: 1082px;
+top: 669px;
+border: #000000;
+
+background: url(images/pisces.png);
+background-position: absolute;
+background-size: 57px;
+background-position: center;
+}
+
+
+
+li {list-style: none; }

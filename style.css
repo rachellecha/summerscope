@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    
+    /* light */
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    
+    /* light */
+
+    background-image: url(images/background.png);
+    position: absolute;
+width: 1440px;
+height: 900px;
+left: 0px;
+top: 0px;
+
+}
+
+.nav-container {
+    height: 120px;
+}
+
+.logo {
+    position: absolute;
+width: 115px;
+height: 88px;
+left: 42px;
+top: 16px;
+
+background: url(images/logo.png);
+background-size: 30;
+border: #000000;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+    background: url(images/menu.svg);
+    background-position: center;
+    background-size: 40;
+    border: #000000;
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    left: 1336px;
+    top: 40px;
+}
+
+.aries1{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 222px;
+top: 498px;
+border: #000000;
+
+background: url(images/aries.png);
+background-position: absolute;
+background-size: 100px;
+background-position-x: center;
+}
+
+.taurus1{
+
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 401px;
+top: 498px;
+    border: #000000;
+
+    background: url(images/taurus.png);
+    background-position: absolute;
+background-size: 100px;
+background-position: center;
+
+}
+
+.gemini1 {
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 580px;
+top: 498px;
+
+border: #000000;
+
+background: url(images/gemini.png);
+background-position: absolute;
+background-size: 99px;
+background-position: center;
+}
+
+.cancer1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 759px;
+    top: 498px;
+border: #000000;
+
+background: url(images/cancer.png);
+background-position: absolute;
+background-size: 100px;
+background-position-x: center;
+
+
+}
+
+.leo1{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 938px;
+top: 498px;
+border: #000000;
+
+background: url(images/leo.png);
+background-position: absolute;
+background-size: 100px;
+background-position: center;
+}
+
+.virgo1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1117px;
+    top: 498px;
+    border: #000000;
+    
+    background: url(images/virgo.png);  
+    background-position: absolute;
+background-size: 100px;
+background-position-x: center;
+}
+
+.libra1{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 222px;
+top: 643px;
+border: #000000;
+
+background: url(images/libra.png);
+background-position: absolute;
+background-size: 99px;
+background-position: center;
+}
+
+.scorpio1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 401px;
+    top: 643px;
+border: #000000;
+
+background: url(images/scorpio.png);
+background-position: absolute;
+background-size: 100px;
+background-position: center;
+}
+
+.sagittarius1{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 580px;
+top: 643px;
+border: #000000;
+
+background: url(images/sagittarius.png);
+background-position: absolute;
+background-size: 110px;
+background-position: center;
+}
+
+.capricorn1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 759px;
+    top: 643px;
+border: #000000;
+
+background: url(images/capricorn.png);
+background-position: absolute;
+background-size: 100px;
+background-position: center;
+}
+
+.aquarius1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 938px;
+    top: 643px;
+border: #000000;
+
+background: url(images/aquarius.png);
+background-position: absolute;
+background-size: 100px;
+background-position-x: center;
+}
+
+.pisces1{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 1117px;
+top: 643px;
+border: #000000;
+
+background: url(images/pisces.png);
+background-position: absolute;
+background-size: 98px;
+background-position: center;
+}
+
+.title{
+    position: absolute;
+    width: 843px;
+    height: 175px;
+    left: 121px;
+    top: 153px;
+    
+    font-family: Poly;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 48px;
+    /* or 50% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+    
+}
+
+.words{
+    position: absolute;
+width: 803px;
+height: 96px;
+left: 121px;
+top: 310px;
+
+font-family: Poly;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+}
+
+li {list-style: none; }
